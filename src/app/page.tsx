@@ -8,15 +8,19 @@ export default function Home() {
   const { toggleTheme, theme } = useTheme();
 
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen gap-6 p-6">
-      <h1 className="text-2xl font-bold">Sistema de Tema Dinâmico</h1>
+    <main className="flex flex-row px-48 items-center justify-center min-h-screen gap-80 p-6">
+      <div className='pl-25 pr-10'>
+        <h1 className="text-2xl font-bold"></h1>
 
-      <ThemedButton label="Trocar Tema" onClick={toggleTheme} />
-      <p>Tema atual: <b>{theme}</b></p>
+        <h1 className='text-5xl font-bold'>Cantinho Feliz</h1>
+        <h3 className='text-3xl mt-6'>Local onde você realiza seus Logins e não fica puto por esquecer a senha!</h3>
 
-      <ThemedCard>
-        <p>Esse é um card estilizado dinamicamente via JSON 🎨</p>
-      </ThemedCard>
+        <p className='mt-6 text-2xl'>Ainda não possui conta? Realize seu cadastro <span>clicando Aqui</span></p>
+
+      </div>
+      <div className='min-h-xl'>
+        <ThemedCard emailText='p@dev.com' passwordText='1234' />
+      </div>
     </main>
   );
 }

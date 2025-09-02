@@ -1,15 +1,16 @@
 {
   "light": {
     "button": {
-      "bg": "blue",
-      "text": "red",
+      "bg": "#4D47C3",
+      "text": "#FFF",
       "hover": "gray",
-      "radius": "0.5rem"
+      "radius": "0.5rem",
+      "fontSize": "18px"
     },
     "card": {
-      "bg": "#1E293B",
-      "text": "#F1F5F9",
-      "border": "#334155"
+      "bg": "FFF",
+      "text": "#A7A3FF",
+      "border": "none"
     }
   },
   "dark": {
@@ -17,10 +18,11 @@
       "bg": "#1E293B",
       "text": "#F8FAFC",
       "hover": "#334155",
-      "radius": "0.5rem"
+      "radius": "0.5rem",
+      "fontSize": "12px"
     },
     "card": {
-      "bg": "#0F172A",
+      "bg": "#FFF",
       "text": "#E2E8F0",
       "border": "#1E293B"
     }
