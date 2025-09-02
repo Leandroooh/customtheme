@@ -17,6 +17,9 @@ export default function Home() {
 
         <p className='mt-6 text-2xl'>Ainda não possui conta? Realize seu cadastro <span>clicando Aqui</span></p>
 
+        <div className='mt-6'>
+          <ThemedButton label="Trocar Tema" onClick={toggleTheme} />
+        </div>
       </div>
       <div className='min-h-xl'>
         <ThemedCard emailText='p@dev.com' passwordText='1234' />
