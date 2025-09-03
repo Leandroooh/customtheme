@@ -20,7 +20,7 @@ export default function ThemedButton({ label, onClick }: ThemedButtonProps) {
         borderRadius: style.radius,
         fontSize: style.fontSize,
       }}
-      className="min-w-sm min-h-14 py-2 font-medium transition-colors"
+      className="w-full h-full max-w-sm max-h-16 py-2 font-medium transition-colors"
       onMouseOver={(e) =>
       ((e.currentTarget as HTMLButtonElement).style.backgroundColor =
         style.hover)
